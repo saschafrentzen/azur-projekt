@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:18-alpine
+FROM node:18.20.2-alpine
 # Set working directory in the container
 WORKDIR /app
 # Copy package.json and package-lock.json (if present)
